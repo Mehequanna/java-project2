@@ -1,5 +1,5 @@
 ## Project Name
-Make your own dictionary Dictionary
+Make Your Own Dictionary
 
 ## Features
 This app will allow you to use a browser to add words and definitions and see them.
