@@ -1,0 +1,9 @@
+<div class="text-center">
+  <h1>All Words</h1>
+  <ul>
+    #foreach ($word in $words)
+      <li><h4><a href="/words/$word.getId()">$word.getTheWord()</a></h4></li>
+    #end
+  </ul>
+  <h3><a href="/words/new">Add New Word</a></h3>
+</div>
