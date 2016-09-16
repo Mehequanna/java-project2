@@ -28,8 +28,8 @@ public class WordTest {
 
   @Test
   public void all_returnsAllInstancesOfWord_true() {
-    Word firstWord = new Word("Mow");
-    Word secondWord = new Word("Buy");
+    Word firstWord = new Word("Word");
+    Word secondWord = new Word("Word2");
     assertEquals(true, Word.all().contains(firstWord));
     assertEquals(true, Word.all().contains(secondWord));
   }
