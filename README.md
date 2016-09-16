@@ -9,7 +9,6 @@ Java, JUnit, Gradle, Spark
 
 ## Usage
 To use the code, you can clone the repository at: [https://github.com/mehequanna/java-project2](https://github.com/mehequanna/java-project2).
-If this were a program:
 * $ git clone https://github.com/mehequanna/java-project2
 * $ cd java-project2
 * $ gradle run

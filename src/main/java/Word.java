@@ -24,6 +24,10 @@ public class Word {
     instances.clear();
   }
 
+  public static List<Word> all() {
+    return instances;
+  }
+
   public static Word find(int id) {
     try {
       return instances.get(id);
