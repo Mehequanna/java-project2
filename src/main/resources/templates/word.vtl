@@ -1,21 +1,19 @@
-#if ($word)
-  <h1>$word.getTheWord()</h1>
-
-
-  #if ($word.getWordDefinitions())
+<div class="text-center">
+  #if ($word)
+    <h1>$word.getTheWord()</h1>
     <h3>Definitions</h3>
+</div>
     <ul>
       #foreach ($definition in $word.getWordDefinitions())
         <li>$definition.getTheDefinition()</li>
       #end
     </ul>
+  <div class="text-center">
+    <a href="/words/$word.getId()/definitions/new">Add a new definition</a>
   #else
-    <h3>No Definitions!</h3>
+    <em><p>Oops! We can't seem to find that word.</p></em>
+    <a href="/words/new">Add New Word</a>
   #end
-  <a href="/words/$word.getId()/definitions/new">Add a new definition</a>
-#else
-  <em><p>Oops! We can't seem to find that word.</p></em>
-  <a href="/words/new">Add New Word</a>
-#end
-<br>
-<a href="/words">All Words</a>
+  <br>
+  <a href="/words">All Words</a>
+</div>

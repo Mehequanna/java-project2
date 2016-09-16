@@ -2,6 +2,9 @@
   max-width: 98%;
 }
 
-ul {
+ul,
+li {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
