@@ -1,0 +1,13 @@
+<div class="text-center">
+  <h1>Add a new definition!</h1>
+
+  <form action="/definitions" method="post">
+    <input id="wordId" name="wordId" type="hidden" value="$word.getId()">
+
+    <div class="form-group">
+      <label for="userDefinition">Your Definition</label>
+      <input id="userDefinition" name="userDefinition" type="text" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-success">Add Definition</button>
+  </form>
+</div>

@@ -6,7 +6,7 @@
     <h3>Definitions</h3>
     <ul>
       #foreach ($definition in $word.getWordDefinitions())
-        <li><a href="/definitions/$definition.getId()">$definition.getTheDefinition()</a></li>
+        <li>$definition.getTheDefinition()</li>
       #end
     </ul>
   #else
