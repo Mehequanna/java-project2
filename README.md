@@ -6,7 +6,7 @@ This app will allow you to use a browser to add words and definitions and see th
 
 ![screenshot of project](java2.png)
 
-##Technologies
+## Technologies
 Java, JUnit, Gradle, Spark
 
 ## Usage
@@ -19,6 +19,6 @@ To use the code, you can clone the repository at: [https://github.com/mehequanna
 ## Author
 Stephen Emery
 
-##License
+## License
 This work can be used under the MIT License.
 Copyright (c) 2016 Stephen Emery
